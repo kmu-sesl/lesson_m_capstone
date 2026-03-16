@@ -1,7 +1,7 @@
 # WSL2 환경 TensorFlow GPU 딥러닝 세팅 가이드 (Python 3.12)
 
 다학제캡스톤 CNN 실습을 Local Windows PC에서 구동하기 위한 설정 가이드입니다. 
-WSL2 환경에서 Python 3.12 가상 환경을 구축하고 TensorFlow가 GPU를 인식하도록 설정하는 전체 과정입니다.
+WSL2 & Ubuntu 24.04 환경에서 Python 3.12 가상 환경을 구축하고 TensorFlow가 GPU를 인식하도록 설정하는 전체 과정입니다. Ubuntu 22 인 경우, 아래에서 3.10 또는 3.11 을 사용하며, 가급적 시스템에 설치된 기본 Python 버전과 일치 시킵니다.
 
 ## 1. 필수 패키지 설치
 WSL2 터미널에 접속한 후, Python 3.12 및 가상 환경 구축에 필요한 패키지들을 설치합니다.
